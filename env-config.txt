@@ -1,0 +1,16 @@
+# Tạo file .env.local với nội dung sau:
+# Mở VS Code → New File → Đặt tên: .env.local
+# Dán nội dung này vào file (thay thế bằng credentials của bạn)
+
+NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key-here
+
+# Cách lấy credentials:
+# 1. Truy cập https://supabase.com
+# 2. Vào project của bạn → Settings → API
+# 3. Copy Project URL và anon public key
+# 4. Thay thế vào file .env.local
+
+# Sau khi tạo file:
+# Restart development server: npm run dev
+# Truy cập: http://localhost:3001/dashboard
