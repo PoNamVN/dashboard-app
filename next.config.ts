@@ -1,10 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  cacheComponents: true,
-  experimental: {
-    ppr: 'incremental',
-  },
+    cacheComponents: true,
 };
 
 export default nextConfig;
